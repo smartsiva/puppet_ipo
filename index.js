@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
       'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.89 Safari/537.36'
     );
     
-    await page.goto('https://www.example.com');
+    await page.goto('https://www.investorgain.com/report/ipo-subscription-live/333/ipo/');
 
     const pageContent = await page.content(); // Extract HTML content of the page
 
