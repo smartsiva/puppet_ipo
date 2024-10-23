@@ -4,14 +4,12 @@
   "description": "A simple Puppeteer example running on Vercel",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "deploy": "vercel --prod"
   },
   "dependencies": {
     "@vercel/node": "^24.0.0",
-    "puppeteer-core": "^22.8.2"
+    "puppeteer": "^20.0.0" // Change from puppeteer-core to puppeteer
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=14.17.0"
   }
