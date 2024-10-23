@@ -1,9 +1,9 @@
 {
   "version": 2,
   "functions": {
-    "index.js": {
-      "memory": 512,          // Adjust as needed
-      "maxDuration": 10       // Adjust as needed
+    "api/index.js": {
+      "memory": 512,           // Memory allocated for the function
+      "maxDuration": 10        // Max duration in seconds for the function
     }
   }
 }
