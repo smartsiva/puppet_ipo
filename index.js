@@ -7,7 +7,7 @@ exports.handler = async (event) => {
     });
 
     const page = await browser.newPage();
-    await page.goto('https://example.com');
+    await page.goto('https://example1.com');
 
     const screenshotBuffer = await page.screenshot({ encoding: 'binary' });
 
