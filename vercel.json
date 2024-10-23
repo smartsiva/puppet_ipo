@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.js": {
-      "memory": 512,           // Memory allocated for the function
-      "maxDuration": 10        // Max duration in seconds for the function
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
     }
-  }
+  ]
 }
