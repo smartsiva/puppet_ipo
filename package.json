@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@vercel/node": "^24.0.0",
-    "puppeteer": "^20.0.0" // Change from puppeteer-core to puppeteer
+    "puppeteer": "^20.0.0"  // Ensure this is correctly specified
   },
   "engines": {
     "node": ">=14.17.0"
